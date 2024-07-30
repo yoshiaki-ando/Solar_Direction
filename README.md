@@ -2,6 +2,8 @@
 
 ## 使用法
 ```c++:
+#include "solar_direction.h"
+
 AndoLab::solar_direction(const double Latitude, const double Longitude, const int Day_of_Year, const double Hour_UT, double *ZenithAngle_in_deg, double *Azimuth_in_deg)
 ```
 ## 入力パラメタ
